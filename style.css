@@ -718,6 +718,7 @@ html{
 
     .contact .row .image img{
         width: 100%;
+        margin-bottom: -4rem;
     }
 
     .contact .row .form-container{
@@ -744,6 +745,7 @@ html{
 
     .faq .row .image img{
         width: 100%;
+        margin-bottom: -4rem;
     }
 
     .faq .row .accordion-container{
@@ -755,11 +757,16 @@ html{
 @media (max-width:550px){
     .footer{
       flex-flow: column;
+        margin-top: 3rem;
     }
     .footer h1{
       text-align: center;
     }
     .footer .icons{
       padding:2rem 0;
+    }
+    
+    .team .row .card {
+        width: 32rem;
     }
   }
