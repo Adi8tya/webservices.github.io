@@ -16,6 +16,7 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -718,7 +719,8 @@ html{
 
     .contact .row .image img{
         width: 100%;
-        margin-bottom: -4rem;
+        margin-bottom: -5rem;
+        margin-top: -6rem
     }
 
     .contact .row .form-container{
@@ -745,7 +747,8 @@ html{
 
     .faq .row .image img{
         width: 100%;
-        margin-bottom: -4rem;
+        margin-top: -6rem;
+        margin-bottom: -5rem;
     }
 
     .faq .row .accordion-container{
